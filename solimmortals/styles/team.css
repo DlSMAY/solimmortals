@@ -1,0 +1,120 @@
+.theImage{
+    width: 100%;
+  }
+  
+  
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    color: white;
+    background-color: rgba(0,0,0,0); 
+
+  }
+  
+  /* contenu */
+  .modal-content {
+    border-radius: 10px;
+    margin: 15% auto; 
+    padding: 20px;
+    width:10%; /* va dépendre du screen size */
+    background-image: linear-gradient(-90deg, rgba(0, 255, 163, 1) 5%, rgba(3, 225, 255, 1) 50%, rgba(220, 31, 255, 1) 100%); 
+    
+    font-family: Outfit,Arial;
+
+  }
+
+
+/* le bouton pour fermer */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+
+  
+
+body{
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+.parent{
+  position: relative;
+}
+
+
+.backgroundImg{
+  position: absolute;
+  width: 100vh;
+  height: 100vw;
+}
+
+
+.coloriage{
+  position: absolute;
+  width: 100vh;
+  height: 100vw;
+  z-index: 1;
+}
+
+
+
+@media only screen and (min-width: 1000px) {
+  .backgroundImg{
+    position: absolute;
+    width: 100vh;
+    height: 100vw;
+    left: 50%;
+    margin-left: -500px;
+  }
+  
+  
+  .coloriage{
+    position: absolute;
+    width: 100vh;
+    height: 100vw;
+    z-index: 1;
+    left: 50%;
+    margin-left: -500px;
+  }
+}
+
+path{
+  fill: red;
+  opacity: 0.3;
+}
+
+path:hover{
+  fill: blue;
+  opacity: 0;
+  /*
+  transition: 0.3s;
+  */
+}
+
+
+
+
+

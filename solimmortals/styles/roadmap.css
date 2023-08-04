@@ -1,0 +1,30 @@
+body{
+    height: 100vh;
+    overflow: hidden;
+    font-family: Outfit,Arial;
+
+}
+
+
+
+
+
+.hdiv{
+    height: 100vh;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.hacker{
+    display: flex;    
+    text-align: center;
+    
+    justify-content: space-around;
+
+}
+
+
